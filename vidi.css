@@ -20,11 +20,12 @@ body {
     margin: auto;
     text-align: center;
     font-family: arial;
+    min-height: 50vh;
 }
 
 .title {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 button {
@@ -38,6 +39,7 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 20px;
+    height: 48px;
 }
 
 h2 {
@@ -89,8 +91,14 @@ a {
     font-size: 20px;
 }
 
+.fa-bitcoin {
+    color: yellow;
+    font-size: 20px;
+}
+
 button:hover,
 a:hover {
+    background-color: rgb(23, 21, 43);
     opacity: 0.8;
     transition: 0.3s ease-in;
 }
