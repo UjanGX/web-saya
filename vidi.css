@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(img/deadpool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PANEL */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.993);
+    background-color: hsla(0, 98%, 22%, 0.83);
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(0, 225, 255);
+}
+
+h1 {
+    color: chartreuse;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.fa-facebook {
+    color: rgb(131, 141, 255);
+    font-size: 20px;
+}
+
+.fa-youtube {
+    color: rgb(255, 1, 1);
+    font-size: 20px;
+}
+
+.fa-discord {
+    background-color: hsla(229, 100%, 47%, 0.534);
+    font-size: 20px;
+}
+
+.fa-tiktok {
+    color: black;
+    font-size: 20px;
+}
+
+.fa-whatsapp {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+
+.fa-twitter {
+    color: aqua;
+    font-size: 20px;
+}
+
+.fa-instagram {
+    color: rgb(255, 0, 43);
+    font-size: 20px;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.8;
+    transition: 0.3s ease-in;
+}
